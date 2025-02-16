@@ -46,10 +46,25 @@ print(myList);
 
 
 //Insertmany
+myList.insertAll(1, [99,98,97]);
+print(myList);
+
+
+//Mixed List
+var mixList = [90, 78,967, "john","hagos"];
+print(mixList);
 
 
 
 //Remove from List
+mixList.remove("john");
+print(mixList);
+
+//Remove at specific positionemoveAt
+mixList.removeAt(1);
+print(mixList);
+
+
 
 
 
