@@ -27,15 +27,22 @@ print(myList[0]);
 //Create an Empty List
 var emptyList = [];
 print(emptyList);
+emptyList.add(899778);
+print(emptyList);
 
 
 
 //Add multiple to empty List
+emptyList.addAll([80,90,100,200,300]);
+print(emptyList);
+
 
 
 
 
 //Insert at specific position (position, item)
+myList.insert(1, 777);
+print(myList);
 
 
 //Insertmany
