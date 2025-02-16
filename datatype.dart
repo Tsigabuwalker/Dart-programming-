@@ -65,6 +65,56 @@ mixList.removeAt(1);
 print(mixList);
 
 
+//Maps! key/value Pairs
+var toppings = {
+  "john": "Pepperoni", "Mary":"CHeese"
+};
+print(toppings);
+var field = {
+  "Tsigie": "Software Engineer", "Hagos":"DOctor","john":"Teacher"
+
+};
+print(field);
+print(field["Tsigie"]);
+
+
+//Show values
+print(field.values);
+
+
+// Show keys
+print(field.keys);
+
+//Showing length 
+print(field.length);
+
+//Add sth
+field["nati"] = "Information Systems";
+print(field);
+
+//Add many things
+
+field.addAll({"negus":"Engineer", "miki":"Ai","beki":"COmputer Science"});
+print(field);
+
+//remove Sth
+field.remove("beki");
+print(field);
+print(field.values);
+
+//Remove Everything 
+field.clear();
+print(field);
+
+
+
+
+
+
+
+
+
+
 
 
 
