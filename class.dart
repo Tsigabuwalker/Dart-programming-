@@ -1,8 +1,8 @@
 void main(){
   //Creating Person class
   Person p1 = Person("Tsigabu", "Male", 24);
-  //p1.showData();
-  //print(p1.name);
+  p1.showData();
+  print(p1.name);
   //create a second person
   Person p2 = Person("Marry","Female", 29);
   p2.showData();
@@ -30,6 +30,9 @@ class Person{
     print("The person's name is  ${name}, they are ${sex}, and ${age}");
 
   }
+  //class without inititalization 
+  
+
     
 
 }
